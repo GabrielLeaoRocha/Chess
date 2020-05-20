@@ -1,10 +1,14 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println("hello world!");
+		Position position = new Position(2, 4);
+		
+		System.out.println(position);
 	}
 
 }
